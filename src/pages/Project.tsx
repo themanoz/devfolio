@@ -1,7 +1,8 @@
 import { VscGithubAlt } from "react-icons/vsc";
 import { GoLink } from "react-icons/go";
 import webopsify from "@/assets/images/webopsify.jpeg";
-import portfolio from "@/assets/images/portfolio.jpeg"
+import portfolio from "@/assets/images/portfolio.jpeg";
+import kite from "@/assets/images/kite.jpeg"
 import { CardContainer } from "@/components/ui/3d-card";
 
 function Project() {
@@ -17,7 +18,7 @@ function Project() {
           <div className="flex gap-3 pt-2">
             <div className="border border-slate-200 rounded-md w-10 h-10 flex justify-center items-center hover:border-slate-600">
               <a
-                href="https://github.com/themanoz"
+                href="https://github.com/themanoz/WebOpsify"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full h-full flex justify-center items-center"
@@ -56,12 +57,13 @@ function Project() {
         <div className="px-5 md:px-10 w-full md:w-1/2 leading-6">
           <h1 className="Kaleko-bold text-md">Portfolio</h1>
           <p className="Kaleko text-sm text-slate-500">
-          Explore my dev portfolio. Elevate your skills and contribute to industry innovation with me.
+            Explore my dev portfolio. Elevate your skills and contribute to
+            industry innovation with me.
           </p>
           <div className="flex gap-3 pt-2">
             <div className="border border-slate-200 rounded-md w-10 h-10 flex justify-center items-center hover:border-slate-600">
               <a
-                href="https://github.com/themanoz"
+                href="https://github.com/themanoz/devfolio"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full h-full flex justify-center items-center"
@@ -81,6 +83,44 @@ function Project() {
             </div>
           </div>
         </div>
+      </div>
+      <div className="flex flex-col md:flex-row items-center justify-center">
+        <div className="px-5 md:px-10 w-full md:w-1/2 leading-6">
+          <h1 className="Kaleko-bold text-md">Kite Connect</h1>
+          <p className="Kaleko text-sm text-slate-500">
+            Landing page of Kite Connect. Super simple trading APIs. Build
+            full-fledged trading platforms with simple HTTP/JSON APIs.
+          </p>
+          <div className="flex gap-3 pt-2">
+            <div className="border border-slate-200 rounded-md w-10 h-10 flex justify-center items-center hover:border-slate-600">
+              <a
+                href="https://github.com/themanoz/kite"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full h-full flex justify-center items-center"
+              >
+                <VscGithubAlt className="w-4 h-4" />
+              </a>
+            </div>
+            <div className="border border-slate-200 rounded-md w-10 h-10 flex justify-center items-center hover:border-slate-600">
+              <a
+                href="https://kite-clone-black.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full h-full flex justify-center items-center"
+              >
+                <GoLink className="w-4 h-4" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <CardContainer className="shadow-lg md:mx-5">
+          <img
+            src={kite}
+            alt="WebOpsify"
+            className="w-full md:max-w-lg border border-slate-100 rounded"
+          />
+        </CardContainer>
       </div>
     </section>
   );

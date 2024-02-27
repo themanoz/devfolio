@@ -78,11 +78,11 @@
 
 @font-face {
   font-family: Kaleko;
-  src: url('../public/Kaleko105Book.ttf');
+  src: url('../Kaleko105Book.ttf');
 }
 @font-face {
   font-family: Kaleko-bold;
-  src: url('../public/Kaleko105Bold.ttf');
+  src: url('../Kaleko105Bold.ttf');
 }
 .Kaleko-bold {
   font-family: Kaleko-bold;

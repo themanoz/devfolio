@@ -37,6 +37,7 @@ function About() {
         <div className="border border-slate-200 rounded-md w-10 h-10 flex justify-center items-center hover:border-slate-600">
           <a
             href="https://www.linkedin.com/in/manojkumarbonala/"
+            target="_blank"
             className="w-full h-full flex justify-center items-center"
           >
             <RiLinkedinLine className="w-5 h-5" />
