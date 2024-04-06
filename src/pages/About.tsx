@@ -29,7 +29,7 @@ function About() {
           <CardContent className="w-full">
             <div>
               <CardDescription className="text-md text-slate-600">
-                Hello! I'm a recent graduate with a Bachelor of Technology
+                Hello! I'm a graduate with a Bachelor of Technology
                 degree, passionate about the world of DevOps and open-source
                 technologies. My journey in academia has equipped me with a
                 strong technical foundation and a commitment to ongoing learning
